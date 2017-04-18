@@ -1,0 +1,79 @@
+{% extends 'layout.html' %}
+{% set active_page = 'projects' %}
+
+{% block content %}
+
+    <!-- Projects -->
+    <div id="projects" class="row subsection-dividers">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3 class="section-heading" style="color:white;">Projects</h3>
+        </div>
+        <div class="card-deck">
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
+                <div class="card">
+                    <!-- <img class="card-img-top" src="" alt="pokésee pokédo video"> -->
+                    <div class="card-block">
+                        <h4 class="card-title">pok&eacute;see pok&eacute;do</h4>
+                        <p class="card-text">A companion application for Pok&eacute;mon GO which allows users to plan an optimized route for catching Pok&eacute;mon, while visiting local points of interest and having fun with friends. Users enter a start point, an end point, desired activity, and desired departure time and the app returns the ideal route to take based on Google Maps data. As the user traverses zir path, Pok&eacute;mon can be marked as 'caught' and added to zir collection of Pok&eacute;mon, which can later be accessed from the user's profile page.</p>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z_xZIh555r0" allowfullscreen></iframe>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item card-list">Built With | Python, JavaScript, jQuery, HTML, CSS, SQLAlchemy, PostgreSQL, Flask, Jinja, Google Maps API, Yelp API</li>
+                    </ul>
+                    <div class="card-block">
+                        <a href="https://github.com/designsbytraina/pokeseepokedo_0.5" class="card-link github-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">parl&eacute; lune</h4>
+                        <p class="card-text">A chat application for dreamers. More information will be added soon.</p>
+                    </div>
+                    <img class="card-img-top img-fluid" id="parle-lune-gif" src="./static/img/parle-lune.gif" alt="parlé lune gif">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item card-list">Built With | Node.js, Express.js, HTML, CSS, JavaScript, Redis, additional TBD</li>
+                    </ul>
+                    <div class="card-block">
+                        <a href="https://github.com/designsbytraina/parle-lune" class="card-link github-link">GitHub</a>
+                        <!-- <a href="#" class="card-link">Demo</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">should i wear a jacket?</h4>
+                        <p class="card-text">An application built with another instructor as an example for students to reference in the Hackbright Part-Time Program. It uses Python, Flask, HTML and CSS to illustrate computer science fundamentals, including APIs, modules and requests.</p>
+                    </div>
+                    <!-- <img class="card-img-top" src="" alt="should i wear a jacket gif"> -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item card-list">Built With | Python, HTML, CSS, Flask, Jinja2, AccuWeather API</li>
+                    </ul>
+                    <div class="card-block">
+                        <a href="https://github.com/designsbytraina/flask-weather-app" class="card-link github-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="card-block">
+                        <h4 class="card-title">tic-tac-toe</h4>
+                        <p class="card-text">A command line interface for Tic-Tac-Toe written in Python.</p>
+                    </div>
+                    <!-- <img class="card-img-top" src="" alt="tic-tac-toe gif"> -->
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item card-list">Built With | Python</li>
+                    </ul>
+                    <div class="card-block">
+                        <a href="https://github.com/designsbytraina/python-tictactoe" class="card-link github-link">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>  <!-- card-deck -->
+    </div> <!-- row --> 
+
+{% endblock %}

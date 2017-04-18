@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Designs by Traina | Rachel Traina-Grandon</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./static/css/styles.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-toggleable-xs navbar-inverse fixed-top">
+  <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/">designs by traina</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" id="about-link" style="display: inline-block;">
+        <a class="nav-link" href="/about"><img src="./static/img/about-white.png" class="my-icons"> about</a>
+      </li>
+      <li class="nav-item" id="tech-link">
+        <a class="nav-link" href="/technologies"><img src="./static/img/tech-code.png" class="my-icons"> technologies</a>
+      </li>
+      <li class="nav-item" id="projects-link">
+        <a class="nav-link" href="/projects"><img src="./static/img/projects-white.png" class="my-icons"> projects</a>
+      </li>
+      <li class="nav-item" id="resume-link">
+        <a class="nav-link" href="/resume"><img src="./static/img/resume-white.png" class="my-icons"> r&eacute;sum&eacute;</a>
+      </li>
+      <li class="nav-item" id="contact-link">
+        <a class="nav-link" href="/contact"><img src="./static/img/contact-white.png" class="my-icons"> contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid">
+
+            {% block content %}
+              <!-- BODY CONTENT HERE -->
+            {% endblock %}
+
+</div> <!-- container-fluid -->
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+</body>
+</html>

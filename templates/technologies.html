@@ -1,0 +1,68 @@
+{% extends 'layout.html' %}
+{% set active_page = 'technologies' %}
+
+{% block content %}
+
+    <!-- Technologies -->
+    <div id="technologies" class="row subsection-dividers">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h3 class="section-heading">Technologies</h3>
+        </div>
+
+        <div class="hidden-lg-down col-xl-2"></div> 
+        <!-- Languages -->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
+            <ul class="tech-list">
+                <li class="tech-list-header">Languages</li>
+                <li class="tech-list-item">Python</li>
+                <li class="tech-list-item">JavaScript</li>
+                <li class="tech-list-item">HTML5</li>
+                <li class="tech-list-item">CSS3</li>
+                <li class="tech-list-item">SQL</li>
+                <li class="tech-list-item">Unix Commands</li>
+            </ul>
+        </div>
+        <!-- Frameworks -->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
+            <ul class="tech-list">
+                <li class="tech-list-header">Frameworks</li>
+                <li class="tech-list-item">Flask</li>
+                <li class="tech-list-item">Django</li>
+                <li class="tech-list-item">jQuery</li>
+                <li class="tech-list-item">Node</li>
+                <li class="tech-list-item">Express</li>
+                <li class="tech-list-item">React</li>
+                <li class="tech-list-item">Bootstrap</li>
+            </ul>
+        </div>
+        <!-- Database, Deployment, Security -->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
+            <ul class="tech-list">
+                <li class="tech-list-header">Database + Deployment</li>
+                <li class="tech-list-item">PostgreSQL</li>
+                <li class="tech-list-item">SQLite</li> 
+                <li class="tech-list-item">Heroku</li>
+                <li class="tech-list-item">Docker</li>
+                <li class="tech-list-item">AWS</li>
+                <li class="tech-list-item">Security</li>
+            </ul>
+        </div>
+        <!-- Web, OS, Dev Tools -->
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
+            <ul class="tech-list">
+                <li class="tech-list-header">Web +OS + Tools</li>
+                <li class="tech-list-item">AJAX</li>
+                <li class="tech-list-item">Web Sockets</li>
+                <li class="tech-list-item">Linux</li>
+                <li class="tech-list-item">macOS (OS X)</li>
+                <li class="tech-list-item">Git</li>
+                <li class="tech-list-item">GitHub</li>
+            </ul>
+        </div>
+
+        <div class="hidden-lg-down col-xl-2"></div> 
+        <!-- <div class="hidden-sm-down col-md-2 col-lg-3"></div> -->
+        
+    </div>
+
+{% endblock %}
