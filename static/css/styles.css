@@ -6,7 +6,7 @@ body {
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Bungee Hairline', cursive;
     font-weight: 700;
-    background-color: rgba(228,242,82,.8); 
+    background-color: rgba(228,242,82,1); 
 }
 .container-fluid {
     padding-left: 0;
@@ -93,11 +93,28 @@ nav {
 
 
 /* All Sections */
+.section-heading {
+    font-family: 'Bungee Hairline', cursive;
+    /*text-align: center;*/
+    padding-bottom: 35px;
+}
 .subsection-dividers {
 /*    padding-top: 80px;
     padding-left: 18px;
     padding-bottom: 150px;*/
-    padding: 80px 18px 150px 18px;
+    padding: 80px 16px 80px 16px;
+}
+.subsection-content{
+    /*padding-top: 40px;*/
+}
+.next-page {
+    color: white;
+    float: right;
+    /*background-color: white;*/
+}
+.next-page:hover {
+    color: white;
+    border: 2px solid white;
 }
 
 
@@ -113,6 +130,15 @@ nav {
     /*height: 120%;*/
     margin-bottom: 0px;
     /*padding-bottom: 100px;*/
+}
+#learn-more-btn {
+    color: white;
+    font-size: large;
+}
+#learn-more-btn:hover {
+    color: white;
+    font-size: large;
+    border: 2px solid white;
 }
 
 
@@ -195,6 +221,7 @@ nav {
     /*background-color: #2E8D90;*/
     background-color: #39AFB2;
     height: 100%;
+    /*color: white;*/
     /*padding: 30px 18px;*/
 }
 .card {
@@ -291,7 +318,7 @@ nav {
     /*margin-right: 50px;*/
     /*margin-bottom: 90px;*/
     /*color: red;*/
-    display:inline-block; 
+    display:inline-block;
     max-width:200px;
 }
 #contact-me:hover {
@@ -323,7 +350,4 @@ nav {
     /*border: 4px solid rgba(237,187, 83,1);*/
     border: 1px solid rgba(228,242,82,1);
 }
-.section-heading {
-    font-family: 'Bungee Hairline', cursive;
-    /*text-align: center;*/
-}
+
