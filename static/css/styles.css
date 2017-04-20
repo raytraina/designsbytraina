@@ -46,9 +46,22 @@ nav {
     /*border: none;*/
     /*margin: 100px;*/
     /*background-color: rgba(237,187, 83,.9);*/
-    text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
 }
-
+#bottom-nav {
+    /*background-color: white;*/
+    background-color: rgba(255,255,255,.8); 
+    height: 40px; 
+    padding: 0px;
+}
+.bottom-links {
+    color: grey; 
+    text-shadow: none;
+}
+.bottom-links:hover {
+    background-color: #FA6E60;
+    color: white;
+}
 
 /* Nav Links */
 #about-link:hover {
@@ -84,7 +97,8 @@ nav {
 }
 #contact-link:hover {
     /*background-color: #082131;*/
-    background-color: #625896;
+    /*background-color: #625896;*/
+    background-color: #6E24E5;
 }
 #contact-link a {
     color:white;
@@ -114,7 +128,8 @@ nav {
 }
 .next-page:hover {
     color: white;
-    border: 2px solid white;
+    border: 1px solid white;
+    /*background-color: rgba(255,255,255,1);*/
 }
 
 
@@ -138,7 +153,7 @@ nav {
 #learn-more-btn:hover {
     color: white;
     font-size: large;
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 
@@ -193,7 +208,7 @@ nav {
 }
 .tech-list-item {
     /*background-color: rgba(237,187, 83,.2);*/
-    background-color: rgba(228,242,82,.1);
+    /*background-color: rgba(228,242,82,.1);*/
     /*border: 1px solid rgba(237,187, 83,.9);*/
     border: 1px solid rgba(228,242,82,.9); 
     border-radius: 10px;
@@ -205,7 +220,7 @@ nav {
     font-size: large;
     /*text-decoration: none;*/
     /*padding: 0 20px;*/
-    box-shadow: 1px 1px 2px rgba(13,10,4,.5);
+    box-shadow: 1px 1px 1px rgba(13,10,4,.5);
 }
 .tech-list-item:hover {
     /*background-color: rgba(237,187, 83,.7);*/
@@ -226,10 +241,11 @@ nav {
 }
 .card {
     /*background-color: rgba(237,187, 83,.1);*/
-    background-color: rgba(228,242,82,.1); 
+    /*background-color: rgba(228,242,82,.1); */
+    background-color: #39AFB2;
     color: white;
     margin: 15px -7px;
-    box-shadow: 2px 2px 5px rgba(13,10,4,.5);
+    box-shadow: 1px 1px 1px rgba(13,10,4,.5);
     border-radius: 10px;
     /*border: 1px solid rgba(237,187, 83,.9);*/
     border: 1px solid rgba(228,242,82,.9); 
@@ -306,13 +322,15 @@ nav {
 #contact {
     /*background-color: #082131;*/
     /*background-color: #7F456E;*/
-    background-color: #625896;
+    /*background-color: #625896;*/
+    background-color: #6E24E5;
     color: white;
     height: 100%;
     /*padding: 20px 18px;*/
 }
 #contact-me {
-    color: #625896;
+    /*color: #625896;*/
+    color: #6E24E5;
     margin: 10px;
     padding: 7px;
     /*margin-right: 50px;*/
@@ -340,14 +358,18 @@ nav {
     /*border: none;*/
     /*background-color: transparent;*/
 }
-#message-plane {
-    /* TODO - SIZING*/
-}
 .card-list {
     /*background-color: #7F456E;*/
     padding: 40px;
     min-height: 130px;
     /*border: 4px solid rgba(237,187, 83,1);*/
     border: 1px solid rgba(228,242,82,1);
+}
+#typeform-contact {
+    border-left: 5px solid rgba(228,242,82,1);
+    border-right: 5px solid rgba(228,242,82,1);
+    border-top: 1px solid rgba(228,242,82,1);
+    border-bottom: 1px solid rgba(228,242,82,1);
+    /*margin: 10px;*/
 }
 
