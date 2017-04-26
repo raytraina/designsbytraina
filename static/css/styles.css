@@ -24,7 +24,6 @@ nav {
     /*font-weight: 700;*/
     /*font-size: large;*/
     /*margin: none;*/
-    position: fixed;
 }
 .my-icons {
     width: 23px;
@@ -301,7 +300,7 @@ nav {
 .list-group-item {
     background-color: transparent;
 }
-#parle-lune-gif {
+#project-gif {
     /*height: 120px;*/
     /*width: auto;*/
     max-width: 100%; 
