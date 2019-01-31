@@ -59,6 +59,10 @@ nav {
     background-color: #FA6E60;
     color: white;
 }
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.8);
+    border-color: rgba(255,255,255,.8);
+}
 
 /* Nav Links */
 #about-link:hover {
