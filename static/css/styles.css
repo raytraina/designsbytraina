@@ -31,6 +31,7 @@ nav {
 .navbar-brand {
     font-size: x-large;
     font-family: 'Bungee Shade', cursive;
+    color: rgba(0,123,255, 1) !important;
 }
 #navbarSupportedContent {
     margin: 8px -15px -7px -15px;
@@ -60,7 +61,7 @@ nav {
     color: white;
 }
 .navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.8);
+    /*color: rgba(255,255,255,.8);*/
     border-color: rgba(255,255,255,.8);
 }
 
@@ -141,7 +142,7 @@ nav {
     /*background-color: #E4F252;*/
     /*background-color: #3A2B6B;*/
     /*background-color: #C7D448;*/
-    background-color: rgba(0,123,255);
+    background-color: rgba(0,123,255,1);
     color: white;
     margin-bottom: 0px;
     padding-bottom: 0;
