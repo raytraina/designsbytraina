@@ -7,17 +7,25 @@ body {
     padding-left: 0px;
     padding-right: 0px;
 }
-
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
 
 /* Navigation */
 nav {
     background-color: rgba(228,242,82,.9); 
+    /*background-color: rgba(178,255,0,1);*/
     font-family: 'Bungee', cursive;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 .my-icons {
     width: 23px;
     height: auto;
-    padding-left: 5px;
     margin-right: 5px;
 }
 .navbar-brand {
@@ -29,10 +37,15 @@ nav {
 }
 .nav-item {
     font-weight: 700;
+    padding-bottom: 8px;
+    margin-bottom: -1px;
+    border-radius: 15px 15px 0 0;
+}
+.nav-link {
+    padding: .5rem 1rem !important;
 }
 #bottom-nav {
-    background-color: rgba(255,255,255,.8); 
-    height: 40px; 
+    background-color: rgba(255,255,255,.8);
     padding: 0px;
     font-family: 'Bungee', cursive;
     position: fixed;
@@ -40,6 +53,7 @@ nav {
 .bottom-links {
     color: grey; 
     text-shadow: none;
+    margin-bottom: -7px;
 }
 .bottom-links:hover {
     background-color: #FA6E60;
@@ -48,7 +62,7 @@ nav {
 
 /* Nav Links */
 #about-link:hover {
-    background-color: #FA6E60;
+    background-color: #FFA58C;
 }
 #about-link a {
     color:white;
@@ -56,7 +70,7 @@ nav {
 }
 #tech-link:hover {
     /*background-color: #C45271;*/
-    background-color: #5EC993;
+    background-color: #39AFB2;
 }
 #tech-link a {
     color:white;
@@ -64,7 +78,9 @@ nav {
 }
 #projects-link:hover {
     /*background-color: #7F456E;*/
-    background-color: #39AFB2;
+    /*background-color: #39AFB2;*/
+    /*background-color: rgba(127,12,232,1);*/
+    background-color: #FA6E60;
 }
 #projects-link a {
     color:white;
@@ -72,7 +88,8 @@ nav {
 }
 #resume-link:hover {
     /*background-color: #3D3656;*/
-    background-color: #6F94BD;
+    /*background-color: #007bff;*/
+    background-color: #0CCD79;
 }
 #resume-link a{
     color:white;
@@ -81,7 +98,7 @@ nav {
 #contact-link:hover {
     /*background-color: #082131;*/
     /*background-color: #625896;*/
-    background-color: #6E24E5;
+    background-color: rgba(127,12,232,1);
 }
 #contact-link a {
     color:white;
@@ -95,7 +112,8 @@ nav {
     padding-bottom: 35px;
 }
 .subsection-dividers {
-    padding: 10% 10% 20% 10%;
+    padding: 10% 6%;
+    height: -webkit-fill-available;
 }
 .subsection-content{
     /*padding-top: 40px;*/
@@ -118,7 +136,8 @@ nav {
 #home {
     /*background-color: #E4F252;*/
     /*background-color: #3A2B6B;*/
-    background-color: #C7D448;
+    /*background-color: #C7D448;*/
+    background-color: rgba(0,123,255);
     color: white;
     margin-bottom: 0px;
     padding-bottom: 0;
@@ -136,11 +155,11 @@ nav {
 /* About */
 #about {
     background-color: #FFA58C;
+    /*background-color: rgba(0,123,255);*/
     /*background-color: #FA6E60;*/
     /*background-color: #5EC993;*/
     /*background-color: #E42C08;*/
     color: white;
-    height: 100%;
 }
 #about-portrait {
     max-height: 200px;
@@ -159,9 +178,10 @@ nav {
 
 /* Technologies */
 #technologies {
-    background-color: #5EC993;
+    /*background-color: #5EC993;*/
+    background-color: #39AFB2;
+    /*background-color: rgba(178,255,0,1);*/
     color: white;
-    height: 100%;
 }
 .tech-list-header {
     text-align: center;
@@ -191,12 +211,15 @@ nav {
 
 /* Projects */
 #projects {
-    background-color: #39AFB2;
+    /*background-color: #39AFB2;*/
+    background-color: #FA6E60;
     /*background-color: #237DBF;*/
-    height: 100%;
+    height: unset;
 }
 .card {
-    background-color: #39AFB2;
+    /*background-color: #39AFB2;*/
+    /*background-color: #FA6E60;*/
+    background-color:rgba(255,255,255,.1);
     color: white;
     margin: 15px -7px;
     box-shadow: 1px 1px 1px rgba(13,10,4,.5);
@@ -204,13 +227,15 @@ nav {
     border: 1px solid rgba(228,242,82,.9); 
 }
 .card:hover{
-    background-color: rgba(61,188,191,.8); 
+/*    background-color: rgba(61,188,191,.8); */
+    box-shadow: 3px 3px 3px rgba(13,10,4,.5);
 }
 .card-title {
     font-family: 'Bungee Hairline', cursive;
 }
 .github-link {
-    padding: 10px;
+    display: block;
+    border-radius: 0px 0px 8px 8px;
     background-color: rgba(228,242,82,1); 
     color: #39AFB2;
     font-family: 'Bungee', cursive;
@@ -234,11 +259,11 @@ nav {
 
 /* Resume */
 #resume {
-    background-color: #6F94BD;
+    /*background-color: #007bff;*/
+    background-color: #0CCD79;
     /*background-color: #062942;*/
     /*background-color: #6DC8FF;*/
     color: white;
-    height: 100%;
 }
 #resume-preview {
     margin: 5px;
@@ -257,14 +282,15 @@ nav {
 
 /* Contact */
 #contact {
+    background-color: rgba(127,12,232,1);
     /*background-color: #082131;*/
     /*background-color: #7F456E;*/
     /*background-color: #625896;*/
-    background-color: #6E24E5;
+    /*background-color: #6E24E5;*/
+    /*background-color: rgba(255,13,13,1);*/
     /*background-color: #062942;*/
     /*background-color: #6DC8FF;*/
     color: white;
-    height: 100%;
     /*padding: 20px 18px;*/
 }
 #contact-me {
@@ -315,4 +341,24 @@ nav {
     border-bottom: 1px solid rgba(228,242,82,1);
     /*margin: 10px;*/
 }
+.contact-link {
+    background-color: rgba(228,242,82,1);
+    font-weight: 700;
+}
+.contact-link:hover {
+    background-color: rgba(228,242,82,.8);
+}
 
+
+
+
+/* TEST */
+/*.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}*/

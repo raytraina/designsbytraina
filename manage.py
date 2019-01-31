@@ -23,10 +23,10 @@ def projects():
     """Render projects page."""
     return render_template("projects.html")
 
-@app.route('/resume')
-def resume():
-    """Render resume page."""
-    return render_template("resume.html")
+# @app.route('/resume')
+# def resume():
+#     """Render resume page."""
+#     return render_template("resume.html")
 
 @app.route('/contact')
 def contact():
