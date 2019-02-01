@@ -193,7 +193,6 @@ nav {
     background-color: #39AFB2;
     /*background-color: rgba(178,255,0,1);*/
     color: white;
-    height: 100%;
 }
 .tech-list-header {
     text-align: center;
@@ -375,5 +374,8 @@ nav {
     .subsection-dividers {
         padding-top: 33%;
         padding-bottom: 25%;
+    }
+    #technologies {
+        height: 100%;
     }
 }
