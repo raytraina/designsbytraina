@@ -147,6 +147,10 @@ nav {
     margin-bottom: 0px;
     padding-bottom: 0;
 }
+.jumbotron {
+    font-family: 'Bungee', cursive; 
+    padding: 18% 6% 30% 6%;
+}
 #learn-more-btn {
     color: white;
     font-size: large;
@@ -358,6 +362,9 @@ nav {
 @media (max-width: 575.98px) {
     .display-3 {
         font-size: 2.5rem;
+    }
+    .jumbotron {
+        padding: unset;
     }
     .navbar-brand {
         font-size: large;
